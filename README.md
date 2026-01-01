@@ -14,7 +14,7 @@ Looker studio ile BigQuery'den çekilen veri ile "çok basit" bir dashboard olu�
 
 Herhangi bir BI tool'u daha önce hiç kullanmamıştım dolayısıyla "çok basit", aynı zamanda çok konforsuz, bir çalışma oldu. 
 
-Temel olarak: gelirlerin çoğunun(%95) oyun içi alımlardan olduğunu, kullanıcı sayısı ve gelirler dengesinde bu konuya Amerika üzerinden dikkat çekmek istedim.
+Temel olarak gelirlerin çoğunun(%95) oyun içi alımlardan olduğunu, kullanıcı sayısı ve gelirler dengesinde bu konuya Amerika üzerinden dikkat çekmek istedim.
 
 ---
 *Ahmet Hakan Ekşi*
