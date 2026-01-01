@@ -25,7 +25,7 @@ WITH daily_data AS (
         SUM(defeat_count) AS total_defeats,
         SUM(server_connection_error) AS total_server_errors
     FROM
-        `project-8cb6cff5-bf7b-4412-b2a.vert1.raw_user_metrics` -- dbt source tanımınıza göre burayı güncelleyin
+        `project-8cb6cff5-bf7b-4412-b2a.vert1.raw_user_metrics` -- bigQ
     GROUP BY
         1, 2, 3
 )
@@ -55,3 +55,4 @@ SELECT
     SAFE_DIVIDE(total_server_errors, dau) AS server_error_per_dau
 
 FROM daily_data
+
